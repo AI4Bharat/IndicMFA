@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.exe
+*.zip
+*.txt
+*.lab
+*.dict
+!tests/data/dictionaries/*.dict
+!tests/data/dictionaries/*.txt
+!tests/data/lab/*.txt
+!tests/data/lab/*.lab
+!tests/data/am/*.zip
+!tests/data/lm/*.zip
+report.txt
+
+.idea/
+.pytest-cache/
+# Mac BS
+.DS_Store
+
+
+generated/
+
+pretrained_models/
+
+# C extensions
+*.so
+
+# Distribution / packaging
+montreal_forced_aligner/version.py
+montreal_forced_aligner/_version.py
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+thirdparty/bin
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/build/
+
+# PyBuilder
+target/
+
+
+*.dll
+
+.pytest_cache/
+
+docs/source/api/
+
+
+*.lprof
+
+*.pclprof
