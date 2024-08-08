@@ -21,11 +21,12 @@ Preprocessed Text:
 Create a G2G Pronunciation Dictionary where each letter maps to itself.
 
 ### Example:
+```
 அ  அ
 ஆ  ஆ
 இ  இ
 ...  ...
-
+```
 ## Step 3: Validate the Corpus and Train the Acoustic Model
 
 ### Validation Syntax:
