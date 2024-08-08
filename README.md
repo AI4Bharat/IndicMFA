@@ -4,9 +4,9 @@
 This project outlines the process of aligning a speech corpus with corresponding text transcripts from scratch, focusing on letter-wise alignment rather than the more common word-wise alignment. The approach replaces the traditional Grapheme-to-Phoneme (G2P) process with a Grapheme-to-Grapheme (G2G) process.
 
 ### Project Components
-- **Speech Corpus**: Contains audio files and corresponding text transcripts.
-- **Pronunciation Dictionary**: Custom dictionary mapping each grapheme to itself.
-- **Acoustic Model**: A model trained using the Speech Corpus and G2G Pronunciation Dictionary.
+- **Speech Corpus**: Contains audio files and corresponding text transcripts[processed].
+- **Pronunciation Dictionary**: Custom dictionary mapping each grapheme to itself. Contains all the letters of the language
+- **Acoustic Model**: A model trained using the Speech Corpus and G2G Pronunciation Dictionary that extracts features and predicts phonemes.
 
 ### Directory Structure
 
