@@ -24,8 +24,8 @@ This project outlines the process of aligning a speech corpus with corresponding
 
 
 #### Pronunciation Dictionary
-[Letter 1]  [Letter 1] <br/>
-[Letter 2]  [Letter 2] <br/>
+[Letter 1]-[space]-[space]-[Letter 1] <br/>
+[Letter 2]-[space]-[space]-[Letter 2] <br/>
 ...
 
 
