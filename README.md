@@ -59,5 +59,5 @@ This project outlines the process of aligning a speech corpus with corresponding
 - **Praat Software**: https://www.fon.hum.uva.nl/praat/
 
   
-In Order to get details on how to install MFA and more, go to `Montreal-Forced-Aligner-Docs/README.md`
-For more detailed instructions, refer to `training.md` and `inference.md`.
+In Order to get details on how to install MFA and more, go to `Montreal-Forced-Aligner-Docs/README.md` <br/>
+For more detailed instruction on implementation, refer to `training.md` and `inference.md`.
