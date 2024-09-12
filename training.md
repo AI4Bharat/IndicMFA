@@ -11,15 +11,15 @@
 
 ### Speech Corpus Directory Structure
 ```
-+-- speech_corpus_directory <br/>
-| +-- speaker1 <br/>
-| --- recording1.wav <br/>
-| --- recording1.lab <br/>
-| --- recording2.wav <br/>
-| --- recording2.lab <br/>
-| +-- speaker2 <br/>
-| --- recording3.wav <br/>
-| --- recording3.lab <br/>
++-- speech_corpus_directory 
+| +-- speaker1 
+| --- recording1.wav 
+| --- recording1.lab 
+| --- recording2.wav 
+| --- recording2.lab 
+| +-- speaker2 
+| --- recording3.wav 
+| --- recording3.lab 
 | --- ...
 ```
 
