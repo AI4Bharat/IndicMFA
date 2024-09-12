@@ -1,16 +1,19 @@
-# MFA Implementation: Aligning a Language from Scratch
+# IndicMFA: Forced Aligners for Indian Languages
 
 ## Overview
-This project outlines the process of aligning a speech corpus with corresponding text transcripts from scratch, focusing on letter-wise alignment rather than the more common word-wise alignment. The approach replaces the traditional Grapheme-to-Phoneme (G2P) process with a Grapheme-to-Grapheme (G2G) process.
+We align speech corpora with corresponding text transcripts from scratch, focusing on letter-wise alignment rather than the more common word-wise alignment. In our approach, we replace the traditional Grapheme-to-Phoneme (G2P) process with a Grapheme-to-Grapheme (G2G) process.
 
-### Project Components
-- **Speech Corpus**: Contains audio files and corresponding text transcripts[processed].
+### Release
+We release the following components -
 - **Pronunciation Dictionary**: Custom dictionary mapping each grapheme to itself. Contains all the letters of the language
 - **Acoustic Model**: A model trained using the Speech Corpus and G2G Pronunciation Dictionary that extracts features and predicts phonemes.
+
+Additionally, you will need a **speech corpus**: which contains audio files and corresponding text transcripts[processed].
 
 ### Directory Structure
 
 #### Speech Corpus
+```
 +-- speech_corpus_directory <br/>
 | +-- speaker1 <br/>
 | --- recording1.wav <br/>
@@ -21,15 +24,18 @@ This project outlines the process of aligning a speech corpus with corresponding
 | --- recording3.wav <br/>
 | --- recording3.lab <br/>
 | --- ...
-
+```
 
 #### Pronunciation Dictionary
+```
 [Letter 1]-[space]-[space]-[Letter 1] <br/>
 [Letter 2]-[space]-[space]-[Letter 2] <br/>
+```
 ...
 
 
 #### Acoustic Model
+```
 +-- acoustic_model_directory <br/>
 | --- final.alimdl <br/>
 | --- final.mdl <br/>
@@ -40,6 +46,7 @@ This project outlines the process of aligning a speech corpus with corresponding
 | --- phones.txt <br/>
 | --- rules.yaml <br/>
 | --- Tree
+```
 
 
 ### Workflow Summary
