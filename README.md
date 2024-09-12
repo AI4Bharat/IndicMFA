@@ -12,7 +12,7 @@ Additionally, you will need a **speech corpus**: which contains audio files and 
 
 Find the releases of all 22 Indian Languages at : https://github.com/AI4Bharat/IndicMFA/releases
 
-The Training Details for all the languages can be found in the table below:
+The Training Details for all the languages in the release can be found in the table below:
 
 | Language   | Seconds of data | Hours of data | IndicTTS | IndicVoices-R | Limmits | GoogleCrowdSourced | Rasa |
 |------------|-----------------|---------------|----------|---------------|---------|--------------------|------|
