@@ -11,16 +11,19 @@
 
 ### Speech Corpus Directory Structure
 ```
-+-- speech_corpus_directory 
-| +-- speaker1 
-| --- recording1.wav 
-| --- recording1.lab 
-| --- recording2.wav 
-| --- recording2.lab 
-| +-- speaker2 
-| --- recording3.wav 
-| --- recording3.lab 
-| --- ...
+speech_corpus_directory/
+│
+├── speaker1/
+│   ├── recording1.wav
+│   ├── recording1.lab
+│   ├── recording2.wav
+│   └── recording2.lab
+│
+├── speaker2/
+│   ├── recording3.wav
+│   └── recording3.lab
+│   ...
+
 ```
 
 ### Audio Files
@@ -78,14 +81,16 @@ mfa train --clean --phone_set UNKNOWN --use_mp -j 16 --single_speaker ~/path/to/
 
 ### Acoustic Model Directory Structure
 ```
-+-- acoustic_model_directory 
-| --- final.alimdl 
-| --- final.mdl 
-| --- lda.mat 
-| --- meta.json 
-| --- phone_lm.fst 
-| --- phone_pdf.counts 
-| --- phones.txt 
-| --- rules.yaml 
-| --- Tree
+acoustic_model_directory/
+│
+├── final.alimdl        # Alignment model file
+├── final.mdl           # Final model file
+├── lda.mat             # Linear Discriminant Analysis matrix
+├── meta.json           # Metadata file containing model information
+├── phone_lm.fst        # Phone-level language model in FST format
+├── phone_pdf.counts    # Phone PDF counts file
+├── phones.txt          # Phone list
+├── rules.yaml          # Rules file
+└── Tree                # Decision tree file
+
 ```
