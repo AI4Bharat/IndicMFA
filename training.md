@@ -43,8 +43,8 @@ Create a G2G Pronunciation Dictionary where each letter maps to itself.
 
 ### Pronunciation Dictionary File Structure
 ```
-[Letter 1]-[space]-[space]-[Letter 1] <br/>
-[Letter 2]-[space]-[space]-[Letter 2] <br/>
+[Letter 1]-[space]-[space]-[Letter 1] 
+[Letter 2]-[space]-[space]-[Letter 2] 
 ```
 
 ### Example:
@@ -78,14 +78,14 @@ mfa train --clean --phone_set UNKNOWN --use_mp -j 16 --single_speaker ~/path/to/
 
 ### Acoustic Model Directory Structure
 ```
-+-- acoustic_model_directory <br/>
-| --- final.alimdl <br/>
-| --- final.mdl <br/>
-| --- lda.mat <br/>
-| --- meta.json <br/>
-| --- phone_lm.fst <br/>
-| --- phone_pdf.counts <br/>
-| --- phones.txt <br/>
-| --- rules.yaml <br/>
++-- acoustic_model_directory 
+| --- final.alimdl 
+| --- final.mdl 
+| --- lda.mat 
+| --- meta.json 
+| --- phone_lm.fst 
+| --- phone_pdf.counts 
+| --- phones.txt 
+| --- rules.yaml 
 | --- Tree
 ```
