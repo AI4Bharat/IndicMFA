@@ -42,6 +42,7 @@ The Training Details for all the languages in the release can be found in the ta
 
 ### Use MFA
 To install and use the MFA software. Follow the steps at : https://montreal-forced-aligner.readthedocs.io/en/latest/index.html 
+
 In Order to get details on how to install MFA and more, go to `Montreal-Forced-Aligner-Docs/README.md` <br/>
 For more detailed instruction on implementation, refer to `training.md` and `inference.md`.
 
